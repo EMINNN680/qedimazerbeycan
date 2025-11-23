@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{% block content %}
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<spline-viewer class="dunya" url="https://prod.spline.design/RwJ7TcFlIHxHYoy2/scene.splinecode"></spline-viewer>
+
+<h1>
+    <f>Sayt Haqqında:</f>
+</h1>
+<div class="haqqinda">
+    <d>"Qədim Azərbaycan" adlı bu sayt, Azərbaycan xalqının minilliklər boyu yaratdığı zəngin mədəni irsi,
+        tarixi abidələri və memarlıq möcüzələrini daha yaxından tanıtmaq məqsədi ilə hazırlanmışdır. Bu layihə, keçmişlə
+        bu gün arasında körpü yaradaraq, gənc nəsildə tariximizə olan marağı artırmaq və milli irsimizin unudulmamasına
+        töhfə vermək niyyəti daşıyır.
+        Azərbaycan ərazisi təkcə coğrafi mövqe ilə deyil, həm də tarixi əhəmiyyəti ilə dünya sivilizasiyasının mühüm
+        mərkəzlərindən biri olmuşdur. Qız Qalası, Şirvanşahlar Sarayı, Atəşgah, Göygöl, Xınalıq kimi abidələr xalqımızın
+        keçmişini, düşüncə tərzini, inancını və həyat tərzini özündə yaşadır. Bu abidələr sadəcə daşdan tikili deyil,
+        həm də yaddaşımızın, kimliyimizin və milli qürurumuzun daşıyıcılarıdır.</d>
+</div>
+<div class="abideler">
+    <br>
+    <div class="sekiller">
+    </div>
+    <h1>
+        <k>Qız Qalası</k>
+    </h1>
+    <div class="qizqalasi">Qız Qalası, Azərbaycanda, Bakının İçərişəhər ərazisində yerləşən məşhur tarixi abidədir.
+        VIII–XII əsrlərə aid olduğu düşünülür və şəhərin simvollarından biridir. Qala yüksək, silindrik formaya malikdir
+        və əsasən müdafiə məqsədi üçün tikilmişdir. Onun ətrafında müxtəlif əfsanələr dolaşır; ən məşhuru, bir şahın
+        qızını bu qalada saxladığı və sevgilisi ilə görüşə bilmədiyi hekayəsidir. Bu abidə UNESCO-nun Dünya İrs
+        Siyahısına daxil olan İçərişəhərin bir hissəsidir və turistlər üçün önəmli bir məkandır.</div>
+    </div>
+
+    <div class="atesgah">
+        <h1>
+            <l>Atəşgah</l>
+        </h1>
+        Atəşgah, Azərbaycanın Şamaxı rayonunun Cəvahirl kəndi yaxınlığında yerləşən qədim atəşpərəst məbəddir. O, əsasən Zərdüştlük dini üçün tikilmiş və burada təbii qazın alışması nəticəsində daimi atəş yanıb. Məbədin divarlarında yazılar və təsvirlər tapılmış, bu da onun həm dini, həm də mədəni əhəmiyyətini göstərir. Bu gün Atəşgah, ölkənin məşhur tarixi abidələrindən biri kimi turistlər tərəfindən ziyarət olunur.
+    </div>
+    <div class="sekiller-2">
+</div>
+
+    <div class="iceriseher">
+        <h1>
+            <l>İçərişəhər</l>
+        </h1>
+        İçərişəhər, Bakının ən qədim yaşayış məskəni və Azərbaycanın tarixə açılan canlı muzeyidir. Burada dar küçələr, qədim daş evlər, karvansaralar və Qız Qalası kimi məşhur abidələr yerləşir. İçərişəhər keçmişdə mühüm ticarət mərkəzi olmuş və Şərq memarlığı ilə Qərb təsirlərini özündə birləşdirən unikal üsluba sahibdir. Bu gün UNESCO Dünya İrs Siyahısına daxil edilən İçərişəhər həm yerli sakinlər, həm də turistlər üçün böyük tarixi və mədəni dəyər daşıyır.
+    </div>
+    <div class="sekiller-3">
+</div>
+<center>
+  <div class="button">Daha Çox Məlumat Üçün Yuxarıdan <i>Abidələr</i> Yazısına Klikləyin</div>
+</center>
+<a href="{{ url_for('user', ad='Ayaz') }}"></a>
+<br>
+<br>
+<br>
+<footer class="footer">
+  <div class="footer-content">
+    <h3>Qədim Azərbaycan</h3>
+    <p>Qədim Azərbaycan Abidələri Haqqında Öyrənmək Üçün Pulsuz Sayt</p>
+    <ul class="socials">
+      <li><a>Facebook</a></li>
+      <li><a>Instagram</a></li>
+      <li><a>YouTube</a></li>
+    </ul>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 Qədim Azərbaycan | Bütün hüquqlar qorunur
+  </div>
+</footer>
+</div>
+<script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.82/build/spline-viewer.js"></script>
+
+
+{% endblock %}

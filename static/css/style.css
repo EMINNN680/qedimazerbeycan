@@ -1,0 +1,1042 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background: #000000;
+}
+
+.img {
+  width: 1000px;
+  height: 600px;
+  border: 2px solid rgb(153, 153, 153);
+  border-radius: 15px;
+  background-image: url(http://127.0.0.1:5000/static/img/qzqls.jpg);
+  background-size: 100%;
+}
+
+.sekil {
+  border-radius: 10px;
+  width: 202px;
+  height: 260px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/ec/Qiz_qalasi_1.jpg);
+  background-size: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000000;
+  padding: 10px 50px;
+  height: 80px;
+  box-shadow: 0 12px 15px rgba(73, 0, 63, 0.397);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+
+nav ul :hover {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  color: #7d0088;
+  transition: color 0.5s;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 0px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card-1 {
+  width: 1600px;
+  text-decoration: none;
+  background: #26003548;
+  border-radius: 10px;
+  color: #5a007e;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  margin-left: 70px;
+  height: 250px;
+  margin-right: 70px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-1:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px rgba(124, 77, 255, 0.3);
+}
+
+.card-2 {
+  margin-top: 780px;
+  text-decoration: none;
+  width: 1037px;
+  background: #26003548;
+  border-radius: 10px;
+  color: #ffffff;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  margin-left: 70px;
+  height: 250px;
+  margin-right: 70px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-2:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px rgba(124, 77, 255, 0.3);
+}
+
+.card-3 {
+  width: 1600px;
+  background: #26003548;
+  border-radius: 10px;
+  color: #5a007e;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  margin-left: 70px;
+  height: 250px;
+  margin-right: 70px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-3:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px rgba(124, 77, 255, 0.3);
+}
+
+.card-4 {
+  width: 1600px;
+  background: #26003548;
+  border-radius: 10px;
+  color: #5a007e;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  margin-left: 70px;
+  height: 250px;
+  margin-right: 70px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-4:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px rgba(124, 77, 255, 0.3);
+}
+
+.card-5 {
+  width: 1600px;
+  background: #26003548;
+  border-radius: 10px;
+  color: #5a007e;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  margin-left: 70px;
+  height: 250px;
+  margin-right: 70px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-5:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px rgba(124, 77, 255, 0.3);
+}
+
+.card-6 {
+  width: 1600px;
+  background: #26003548;
+  border-radius: 10px;
+  color: #5a007e;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  margin-left: 70px;
+  height: 250px;
+  margin-right: 70px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-6:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px rgba(124, 77, 255, 0.3);
+}
+
+.card-7 {
+  width: 1600px;
+  background: #26003548;
+  border-radius: 10px;
+  color: #5a007e;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  margin-left: 70px;
+  height: 250px;
+  margin-right: 70px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-7:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px rgba(124, 77, 255, 0.3);
+}
+
+.card-8 {
+  width: 1600px;
+  background: #26003548;
+  border-radius: 10px;
+  color: #5a007e;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  margin-left: 70px;
+  height: 250px;
+  margin-right: 70px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-8:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px rgba(124, 77, 255, 0.3);
+}
+
+.card-9 {
+  width: 1600px;
+  background: #26003548;
+  border-radius: 10px;
+  color: #5a007e;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  margin-left: 70px;
+  height: 250px;
+  margin-right: 70px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-9:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px rgba(124, 77, 255, 0.3);
+}
+
+.card-10 {
+  width: 1600px;
+  background: #26003548;
+  border-radius: 10px;
+  color: #5a007e;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  margin-left: 70px;
+  height: 250px;
+  margin-right: 70px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-10:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px rgba(124, 77, 255, 0.3);
+}
+
+.flash-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+}
+
+.flash {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: #fff;
+  opacity: 0;
+  animation: slideIn 0.5s forwards, fadeOut 0.5s 3s forwards;
+}
+
+.flash.success {
+  background: #28a745;
+}
+
+.flash.error {
+  background: #dc3545;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+
+form {
+  max-width: 400px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  background-color: #000000;
+  color: #7d0088;
+  border: 2px solid #7d0088;
+  transition: 0.3s;
+}
+
+input:hover {
+  background-color: #3f0047;
+}
+
+input,
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: black;
+  color: #7d0088;
+  border: 2px solid #7d0088;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #7d00888a;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  position: relative;
+  width: 1000px;
+}
+
+.dunya {
+  position: absolute;
+  top: 0;
+  margin-top: 100px;
+}
+
+.abides {
+  position: absolute;
+  top: 0;
+  margin-top: 100px;
+}
+
+f {
+  background: linear-gradient(90deg, #5a007e, #00a2be);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 50px;
+  align-items: left;
+  margin-left: 50px;
+}
+
+d {
+  background: linear-gradient(90deg, #ffffff, #dadada);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 30px;
+  align-items: left;
+  margin-left: 50px;
+}
+
+.haqqinda {
+  width: 1250px;
+  height: 500px;
+  margin-left: 50px;
+}
+
+.abideler {
+  width: 1250px;
+  height: 1400px;
+  margin-left: 50px;
+  border: 2px solid rgb(56, 0, 56);
+  position: absolute;
+  border-radius: 15px;
+  background-color: #5a007e2a;
+}
+
+.sekiller {
+  position: absolute;
+  border-radius: 15px;
+  width: 590px;
+  height: 390px;
+  border: 2px solid rgb(56, 0, 56);
+  background-image: url(https://drbaku.com/wp-content/uploads/2024/11/baku2-1024x683.jpeg);
+  background-size: 100%;
+  right: 2%;
+}
+
+k {
+  margin-left: 50px;
+  color: white;
+}
+
+.qizqalasi {
+  margin-left: 50px;
+  width: 400px;
+  height: 400px;
+  color: white;
+  font-size: large;
+}
+
+.sekiller-2 {
+  position: absolute;
+  border-radius: 15px;
+  margin-top: -400px;
+  margin-left: 100px;
+  width: 570px;
+  height: 330px;
+  border: 2px solid rgb(56, 0, 56);
+  background-image: url(https://ateshgahtemple.az/wp-content/uploads/2019/06/page-1_slide2.jpg.jpg);
+  background-size: 100%;
+}
+
+.atesgah {
+  margin-left: 800px;
+  margin-top: 470px;
+  width: 400px;
+  height: 400px;
+  color: white;
+  font-size: large;
+}
+
+.sekiller-3 {
+  position: absolute;
+  margin-top: -440px;
+  border-radius: 15px;
+  width: 590px;
+  height: 390px;
+  border: 2px solid rgb(56, 0, 56);
+  background-image: url(https://portal.azertag.az/sites/default/files/2ce949e7-e723-4c97-974c-b7ec4638d7b1.jpg);
+  background-size: 100%;
+  margin-left: 683px;
+}
+
+.iceriseher {
+  margin-left: 100px;
+  width: 400px;
+  height: 400px;
+  color: white;
+  font-size: large;
+}
+
+l {
+  color: white;
+}
+
+.button {
+  border-radius: 4px;
+  background: linear-gradient(90deg, rgba(80, 0, 80, 0.514), rgba(128, 0, 128, 0.466));
+  border: none;
+  color: rgb(138, 50, 138);
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  width: 700px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-top: -5px;
+}
+
+.alt {
+  width: 100%;
+  height: 607px;
+  border-top: 2px solid #5a007ea8;
+}
+
+u {
+  color: #7d0088;
+  text-align: right;
+}
+
+.sekil-1 {
+  width: 300px;
+  background: #26003548;
+  border-radius: 10px;
+  color: #5a007e;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  height: 245px;
+  margin-top: -475px;
+  background-image: url(https://ateshgahtemple.az/wp-content/uploads/2019/06/page-1_slide1.jpg-1024x742.jpg);
+  background-size: 115%;
+}
+
+.sekil-2 {
+  width: 300px;
+  background-image: url(https://drbaku.com/wp-content/uploads/2024/11/baku2-1024x683.jpeg);
+  background-size: 125%;
+  margin-left: 730px;
+  border-radius: 10px;
+  color: #ffffff;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  height: 245px;
+  margin-top: -467px;
+}
+
+.sekil-3 {
+  width: 300px;
+  margin-left: 730px;
+  background: #26003548;
+  border-radius: 10px;
+  color: #5a007e;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  height: 245px;
+}
+
+.sekil-4 {
+  width: 300px;
+  background-image: url(https://qebulol.az/wp-content/uploads/2025/06/susaqalas-scaled.jpg);
+  background: #26003548;
+  border-radius: 10px;
+  color: #5a007e;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  margin-top: -477px;
+  height: 245px;
+}
+
+.sekil-5 {
+  width: 300px;
+  margin-left: 730px;
+  background: #26003548;
+  border-radius: 10px;
+  color: #5a007e;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  height: 245px;
+}
+
+.sekil-6 {
+  width: 300px;
+  background: #26003548;
+  border-radius: 10px;
+  color: #5a007e;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  height: 245px;
+}
+
+.sekil-7 {
+  width: 300px;
+  margin-left: 730px;
+  background: #26003548;
+  border-radius: 10px;
+  color: #5a007e;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  height: 245px;
+}
+
+.sekil-8 {
+  width: 300px;
+  background: #26003548;
+  border-radius: 10px;
+  color: #5a007e;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  height: 245px;
+}
+
+.sekil-9 {
+  width: 300px;
+  margin-left: 730px;
+  background: #26003548;
+  border-radius: 10px;
+  color: #5a007e;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  height: 245px;
+}
+
+.sekil-10 {
+  width: 300px;
+  background: #26003548;
+  border-radius: 10px;
+  color: #5a007e;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  height: 245px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar:hover {
+  width: 5px;
+  transition: width 0.7s;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7d0088;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5a007e;
+}
+
+#navbar {
+  background-color: #000000;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+::selection {
+  background: #7d008886;
+  color: black;
+}
+
+.footer {
+  background: #330047;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-content h3 {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.footer-content p {
+  margin: 10px 0;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.socials {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.socials li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+  position: relative;
+}
+
+.socials li a:hover {
+  color: #e0aaff;
+  transform: translateY(-3px);
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  font-size: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 15px;
+  opacity: 0.7;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.1);
+  top: -100px;
+  left: -40%;
+  transform: rotate(25deg);
+  animation: footer-anim 6s infinite linear;
+}
+
+@keyframes footer-anim {
+  0% {
+    transform: rotate(25deg) translateX(-20%);
+  }
+
+  50% {
+    transform: rotate(25deg) translateX(20%);
+  }
+
+  100% {
+    transform: rotate(25deg) translateX(-20%);
+  }
+}
+
+.qizqalasi-2 {
+  margin-left: 20px;
+  width: 700px;
+  text-align: left;
+  height: 400px;
+  color: white;
+  font-size: large;
+  margin-top: 10;
+}
+
+j {
+  margin-left: -780px;
+  font-size: 50px;
+  margin-top: -190px;
+  color: white;
+  text-align: left;
+}
+
+o {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+
+y {
+  color: white;
+  text-align: center;
+}
+
+w {
+  color: white;
+}
+
+.siyahi{
+  width: 100px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.atesgah-2 {
+  margin-left: 330px;
+  width: 700px;
+  text-align: left;
+  height: 400px;
+  color: white;
+  font-size: large;
+  margin-top: 10px;
+}
+
+m{
+  color: white;
+  font-size: 50px;
+  margin-left: -170px;
+}
+
+.iceriseher-2 {
+  margin-left: 20px;
+  width: 700px;
+  text-align: left;
+  height: 400px;
+  color: white;
+  font-size: large;
+  margin-top: 10pxs;
+}
+
+n{
+  margin-left: -780px;
+  font-size: 50px;
+  margin-top: -190px;
+  color: white;
+  text-align: left;
+}
+
+.sekil-3 {
+  width: 300px;
+  background-image: url(https://portal.azertag.az/sites/default/files/2ce949e7-e723-4c97-974c-b7ec4638d7b1.jpg);
+  background-size: 123%;
+  margin-left: 730px;
+  border-radius: 10px;
+  color: #ffffff;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  height: 245px;
+  margin-top: -467px;
+}
+
+.sekil-4 {
+  width: 300px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/cc/%C5%9Eu%C5%9Fa_qalas%C4%B1_2024-c%C3%BC_ilin_aprelind%C9%99.jpg);
+  background-size: 125%;
+  margin-left: 0px;
+  border-radius: 10px;
+  color: #ffffff;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  height: 245px;
+  margin-top: -477px;
+}
+
+.susaqalasi {
+  margin-left: 330px;
+  width: 700px;
+  text-align: left;
+  height: 400px;
+  color: white;
+  font-size: large;
+  margin-top: 10px;
+}
+
+o{
+   color: white;
+  font-size: 50px;
+  margin-left: -140px; 
+}
+
+g{
+  margin-left: -500px;
+  font-size: 50px;
+  margin-top: -190px;
+  color: white;
+  text-align: left;
+}
+
+.sekil-5 {
+  width: 300px;
+  background-image: url(https://fed.az/upload/news/1744784.jpg);
+  background-size: 123%;
+  margin-left: 730px;
+  border-radius: 10px;
+  color: #ffffff;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  height: 245px;
+  margin-top: -477px;
+}
+
+.mominexatun {
+  margin-left: 20px;
+  width: 700px;
+  text-align: left;
+  height: 400px;
+  color: white;
+  font-size: large;
+  margin-top: 10px;
+}
+
+.sirvanshlar {
+  margin-left: 330px;
+  width: 700px;
+  text-align: left;
+  height: 400px;
+  color: white;
+  font-size: large;
+  margin-top: 10px;
+}
+
+x{
+  color: white;
+  font-size: 50px;
+  margin-left: 30px; 
+}
+
+.sekil-6 {
+  width: 300px;
+  background-image: url(https://portal.azertag.az/sites/default/files/shirvan5.JPG);
+  background-size: 125%;
+  margin-left: 0px;
+  border-radius: 10px;
+  color: #ffffff;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  height: 245px;
+  margin-top: -477px;
+}
+
+h{
+  margin-left: -670px;
+  font-size: 50px;
+  margin-top: -190px;
+  color: white;
+  text-align: left;
+}
+
+.xansarayi {
+  margin-left: 20px;
+  width: 700px;
+  text-align: left;
+  height: 400px;
+  color: white;
+  font-size: large;
+  margin-top: 10px;
+}
+
+.sekil-7 {
+  width: 300px;
+  background-image: url(https://zim.az/uploads/posts/2017-06/1498592901_xan-sarayi-1.jpg);
+  background-size: 117%;
+  margin-left: 730px;
+  border-radius: 10px;
+  color: #ffffff;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  height: 245px;
+  margin-top: -477px;
+}
+
+.sekil-8 {
+  width: 300px;
+  background-image: url(https://absheron-ih.gov.az/storage/files/images/DSC00913_1.jpg);
+  background-size: 125%;
+  margin-left: 0px;
+  border-radius: 10px;
+  color: #ffffff;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  height: 245px;
+  margin-top: -477px;
+}
+
+e{
+  color: white;
+  font-size: 50px;
+  margin-left: -170px; 
+}
+
+.yanardag {
+  margin-left: 330px;
+  width: 700px;
+  text-align: left;
+  height: 400px;
+  color: white;
+  font-size: large;
+  margin-top: 10px;
+}
+
+z{
+  margin-left: -420px;
+  font-size: 50px;
+  margin-top: -190px;
+  color: white;
+  text-align: left;
+}
+
+.govher {
+  margin-left: 20px;
+  width: 700px;
+  text-align: left;
+  height: 400px;
+  color: white;
+  font-size: large;
+  margin-top: 10px;
+}
+
+.sekil-9 {
+  width: 300px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3d/A%C5%9Fa%C4%9F%C4%B1_G%C3%B6vh%C9%99r_a%C4%9Fa_m%C9%99scidi_restavrasiya_i%C5%9Fl%C9%99rind%C9%99n_sonra%2C_2024-c%C3%BC_ild%C9%99.jpg);
+  background-size: 123%;
+  margin-left: 730px;
+  border-radius: 10px;
+  color: #ffffff;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  height: 245px;
+  margin-top: -477px;
+}
+
+t{
+  color: white;
+  font-size: 50px;
+  margin-left: 240px; 
+}
+
+.imamzade {
+  margin-left: 330px;
+  width: 700px;
+  text-align: left;
+  height: 400px;
+  color: white;
+  font-size: large;
+  margin-top: 10px;
+}
+
+.sekil-10 {
+  width: 300px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3d/%C4%B0mamzad%C9%99_t%C3%BCrb%C9%99si_%28G%C9%99nc%C9%99%29_2.jpg);
+  background-size: 125%;
+  margin-left: 0px;
+  border-radius: 10px;
+  color: #ffffff;
+  border: 2px solid #5a007e;
+  box-shadow: 0 4px 10px rgba(54, 0, 65, 0.521);
+  height: 245px;
+  margin-top: -477px;
+}

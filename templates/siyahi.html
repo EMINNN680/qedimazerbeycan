@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<center>
+<class class="siyahi">
+<w>
+<h1>İstifadəçilərin Siyahısı</h1>
+{% for telebe in telebeler %}
+<h3>{{ telebe.ad }} - {{ telebe.yas }} - {{ telebe.email }} yaş</h3>
+{% endfor %}
+</w>
+</class>
+</center>
+{% endblock %}
